@@ -61,4 +61,3 @@ jobs:
       - name: Deploy to GitHub Pages (Deploy)
         id: deployment
         uses: actions/deploy-pages@v4
-'@ | Set-Content -Path .\.github\workflows\maven.yml -Encoding UTF8
